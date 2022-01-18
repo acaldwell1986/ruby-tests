@@ -7,7 +7,7 @@ fname.chomp!
 lname.chomp!
 GREETING = "Welcome, #{fname} #{lname}!"
 
-puts GREETING
+puts GREETING 
 
 
 
