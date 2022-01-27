@@ -5,8 +5,8 @@ lname = gets
 
 fname.chomp!
 lname.chomp!
-GREETING = "Welcome, #{fname} #{lname}!"
-
+GREETING = "Welcome, #{fname} #{lname}!" 
+ 
 puts GREETING 
 
 
