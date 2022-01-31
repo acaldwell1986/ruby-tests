@@ -9,8 +9,7 @@ def caesar_cipher(word, shift)
   p word_array
   word_array.each_with_index do |t, idx|
     char_val = word_array[idx].ord 
-    value = word_array[idx].ord + shift                         
-    
+    value = word_array[idx].ord + shift
     if char_val.between?(65,90)
 
       if value <= 90
@@ -37,10 +36,9 @@ def caesar_cipher(word, shift)
     end
   end
 
-    new_array = []
-    return_array.each do |element|
-      new_array << element.chr
-    end
-    return new_array.join("")
-
+  new_array = []
+  return_array.each do |element|
+    new_array << element.chr
+  end
+  new_array.join('')
 end
